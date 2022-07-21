@@ -70,4 +70,31 @@ O último é chamado a cada vez que for executado o statistic time parâmetro
 Ele precisa tem um formato : 
 
 ![](initialization.png)
+  
+Todos os objetos passados como parâmetros tem um método getArray(), que retorna um objeto estático e um método clear(), que limpa a coleção (quando for pertinente)
 
+### Cada elemento do objeto connections contém (qualquer um pode ser impresso na tela
+  public JmsFactoryFactory factory;
+	public JmsConnectionFactory jmsFactory;
+	public javax.jms.Connection connection;
+	public Session session;
+	public Queue queue;
+	public TextMessage textMessage;
+	public MessageProducer producer;
+	public MessageConsumer consumer;
+### Cada elemento do objeto errors é uma instância de Exception em java
+### Cada elemento do objeto results contém o resultado de um envio ou recepção, com os campos
+  	public int messageSize;  
+	  public boolean isProducer; //(se foi enviado ou recebido)
+	  public long timestamp;   // timestamp em milissegundos do envio
+    public long processTime;  // tempo para enviar ou receber
+### Cada uma das propriedades que foram carregadas, no formato 
+    public String name;
+    public String value;
+## dicas - A rotina de inicialização pode escrever o preambulo, por exemplo se for um HTML ou CSV o header, e a rotina finalization pode escrever a finalização, talvez fechar o body ou HTML. A rotina loop.js escreve os valores, com os separadores necessários
+---------------------------------------------------------------------------------------------------------------
+# Nivel 4 - Criar comandos
+  Você pode criar seus comandos e colocar em commands
+  Eles tem o formato
+  ![](error.png)
+  
