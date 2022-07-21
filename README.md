@@ -61,4 +61,12 @@ scripts=default
 10. scripts - diretório que contém os scripts de inicialização, finalização e de execução no loop do programa
 ---------------------------------------------------------------------------------------------------------------
 # Nivel 3 - Editar formato de saída
+São fornecidos ttres arquivos para a formatação da saída
+<li> initialization.js
+<li> finalization.js
+<li> loop.js
+Os dois primeiros executados uma única vez, no início e no final respecttivamente
+O último é chamado a cada vez que for executado o statistic time parâmetro
+Ele precisa tem um formato : 
+![Inittialization](https://github.com/gsreis/gmequerv2/initialization.png)
 
