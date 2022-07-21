@@ -68,5 +68,6 @@ São fornecidos ttres arquivos para a formatação da saída
 Os dois primeiros executados uma única vez, no início e no final respecttivamente
 O último é chamado a cada vez que for executado o statistic time parâmetro
 Ele precisa tem um formato : 
-![Inittialization](https://github.com/gsreis/gmequerv2/initialization.png)
+
+![](initialization.png)
 
