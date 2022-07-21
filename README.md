@@ -18,6 +18,7 @@ Pode ser feito com o comando </br>
 Depois é só abrir um command prompt e executar ./gmequer.sh ou gmequer.bat (depende do sistema operacional)
 Ele já está configurado para apontar para o IP loopback e as configurações default do comando docker acima
 ---------------------------------------------------------------------------------------------------------------
+
 # Nivel 2 - Mudar configurações (gmequer.properties)
 
 ## Alterar o arquivo gmequer.properties
@@ -60,7 +61,9 @@ Ele já está configurado para apontar para o IP loopback e as configurações d
 <li>9. statisticTime - Tempo em segundos para apresentar as estatísticas na tela (apresenta no formato do arquivo loop.js)
 <li>10. scripts - diretório que contém os scripts de inicialização, finalização e de execução no loop do programa
 ---------------------------------------------------------------------------------------------------------------
+
 # Nivel 3 - Editar formato de saída
+
 São fornecidos ttres arquivos para a formatação da saída
 <li> initialization.js
 <li> finalization.js
@@ -93,7 +96,9 @@ Todos os objetos passados como parâmetros tem um método getArray(), que retorn
     public String value;
 ## dicas - A rotina de inicialização pode escrever o preambulo, por exemplo se for um HTML ou CSV o header, e a rotina finalization pode escrever a finalização, talvez fechar o body ou HTML. A rotina loop.js escreve os valores, com os separadores necessários
 ---------------------------------------------------------------------------------------------------------------
+
 # Nivel 4 - Criar comandos
+
   Você pode criar seus comandos e colocar em no diretório commands
   Eles tem o formato
   ![](error.png)
@@ -101,7 +106,9 @@ Todos os objetos passados como parâmetros tem um método getArray(), que retorn
   ![](explanation.png)
   E um método execute que você pode colocar a lógica que desejar - neste exemplo está imprimindo todos os Exceptions na tela, e depois limpa a lista de erros
   ---------------------------------------------------------------------------------------------------------------
+
 # Nivel 5 - Compilar os códigos 
+
 Eu não forneci um projeto java, mas bastta importar tudo que estiver no diretório src para um IDE (ex eclipse) e importar todos os JARs acima para o classpath (EXCETUANDO-SE O GMEQUER.JAR, que será gerado pela compilação)
 
 
