@@ -97,9 +97,9 @@ public class ConnectionInfo {
 				producer.send(textMessage);				
 				oneres.processTime = System.currentTimeMillis() - oneres.timestamp;
 			}else {
-				
 				oneres.timestamp = System.currentTimeMillis();
 				Message m = consumer.receive();
+			    
 				oneres.messageSize = ((String)m.getBody(String.class)).length();
 				oneres.processTime = System.currentTimeMillis() - oneres.timestamp;
 			}
