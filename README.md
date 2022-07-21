@@ -22,43 +22,43 @@ Ele já está configurado para apontar para o IP loopback e as configurações d
 
 ## Alterar o arquivo gmequer.properties
 ## informations from sender
-hostNameSender=127.0.0.1
-hostPortSender=1414
-channelNameSender=DEV.APP.SVRCONN
-queueManagerNameSender=QM1
-queueNameSender=DEV.QUEUE.1
-usernameSender=app
-passwordSender=passw0rd
-persistent=false
-sleepTimeSender=10
-messageSizing=100
-messagePattern=helloworld
-numThreadsSender=5
+<li>hostNameSender=127.0.0.1
+<li>hostPortSender=1414
+<li>channelNameSender=DEV.APP.SVRCONN
+<li>queueManagerNameSender=QM1
+<li>queueNameSender=DEV.QUEUE.1
+<li>usernameSender=app
+<li>passwordSender=passw0rd
+<li>persistent=false
+<li>sleepTimeSender=10
+<li>messageSizing=100
+<li>messagePattern=helloworld
+<li>numThreadsSender=5
 
 ## informations from receiver
-hostNameReceiver=127.0.0.1
-hostPortReceiver=1414
-channelNameReceiver=DEV.APP.SVRCONN
-queueManagerNameReceiver=QM1
-queueNameReceiver=DEV.QUEUE.1
-usernameReceiver=app
-passwordReceiver=passw0rd
-sleepTimeReceiver=10
-numThreadsReceiver=5
+<li>hostNameReceiver=127.0.0.1
+<li>hostPortReceiver=1414
+<li>channelNameReceiver=DEV.APP.SVRCONN
+<li>queueManagerNameReceiver=QM1
+<li>queueNameReceiver=DEV.QUEUE.1
+<li>usernameReceiver=app
+<li>passwordReceiver=passw0rd
+<li>sleepTimeReceiver=10
+<li>numThreadsReceiver=5
 
 ## general informations
-statisticTime=5
-scripts=default
+<li>statisticTime=5
+<li>scripts=default
 
 # Opções :
-1. hostName*, hostPort*, channelName*, queueManager*, queueName*, userName* e userPassword* são as configurações do MQ 
-2. messageSizing - tamanho da mensagem - ela será criada concatenando suscessivamente o parametro messagePattern abaixo
-3. messagePattern* - usado para criar a mensagem
-4. numThreadsSender e numThreadsReceiver - numero de threads para envio e recepção
-7. sleepTime* - tempo em milissegundos que o programa dorme antes de enviar ou ler outra mensagem
-8. persistent - true se a mensagem é persistente ou false se não persistente
-9. statisticTime - Tempo em segundos para apresentar as estatísticas na tela (apresenta no formato do arquivo loop.js)
-10. scripts - diretório que contém os scripts de inicialização, finalização e de execução no loop do programa
+<li>1. hostName*, hostPort*, channelName*, queueManager*, queueName*, userName* e userPassword* são as configurações do MQ 
+<li>2. messageSizing - tamanho da mensagem - ela será criada concatenando suscessivamente o parametro messagePattern abaixo
+<li>3. messagePattern* - usado para criar a mensagem
+<li>4. numThreadsSender e numThreadsReceiver - numero de threads para envio e recepção
+<li>7. sleepTime* - tempo em milissegundos que o programa dorme antes de enviar ou ler outra mensagem
+<li>8. persistent - true se a mensagem é persistente ou false se não persistente
+<li>9. statisticTime - Tempo em segundos para apresentar as estatísticas na tela (apresenta no formato do arquivo loop.js)
+<li>10. scripts - diretório que contém os scripts de inicialização, finalização e de execução no loop do programa
 ---------------------------------------------------------------------------------------------------------------
 # Nivel 3 - Editar formato de saída
 São fornecidos ttres arquivos para a formatação da saída
