@@ -94,7 +94,7 @@ Todos os objetos passados como parâmetros tem um método getArray(), que retorn
 ## dicas - A rotina de inicialização pode escrever o preambulo, por exemplo se for um HTML ou CSV o header, e a rotina finalization pode escrever a finalização, talvez fechar o body ou HTML. A rotina loop.js escreve os valores, com os separadores necessários
 ---------------------------------------------------------------------------------------------------------------
 # Nivel 4 - Criar comandos
-  Você pode criar seus comandos e colocar em commands
+  Você pode criar seus comandos e colocar em no diretório commands
   Eles tem o formato
   ![](error.png)
   Um método help, onde você põe um print do que o comando faz. Quando você digita help com o programa em execução, ele busca por todos os scripts no diretório commands e executa esta explicação. aparece algo assim 
