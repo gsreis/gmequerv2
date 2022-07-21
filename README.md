@@ -1,9 +1,9 @@
 
-## Nível 1 - somente executar 
+# Nível 1 - somente executar 
 
 Baixar todos os arquivos em um diretório 
 
-# Criar uma instância de MQ na máquina
+## Criar uma instância de MQ na máquina
 Pode ser feito com o comando </br>
 
 <li>docker volume qm1data</li>
@@ -18,5 +18,5 @@ Pode ser feito com o comando </br>
 Depois é só abrir um command prompt e executar ./gmequer.sh ou gmequer.bat (depende do sistema operacional)
 Ele já está configurado para apontar para o IP loopback e as configurações default do comando docker acima
 
-## Nivel 2 - Mudar configurações 
+# Nivel 2 - Mudar configurações 
 
