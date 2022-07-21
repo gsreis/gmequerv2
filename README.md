@@ -19,11 +19,12 @@ Depois é só abrir um command prompt e executar ./gmequer.sh ou gmequer.bat (de
 Ele já está configurado para apontar para o IP loopback e as configurações default do comando docker acima
 
 Apos digitar a o docker run acima. um console do MQ será aberto na url
-!(https://localhost:9009/console.png)
+
+![https://localhost:9009](/console.png)
 
 usuarios
-admin - passw0rd (administração e console)
-app - passw0rd (conexão do programa)
+<li>admin - passw0rd (administração e console)
+<li>app - passw0rd (conexão do programa)
 ---------------------------------------------------------------------------------------------------------------
 
 # Nivel 2 - Mudar configurações (gmequer.properties) (5 minutos)
