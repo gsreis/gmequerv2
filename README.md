@@ -67,7 +67,7 @@ São fornecidos ttres arquivos para a formatação da saída
 <li> loop.js
 Os dois primeiros executados uma única vez, no início e no final respecttivamente
 O último é chamado a cada vez que for executado o statistic time parâmetro
-Ele precisa tem um formato : 
+Ele precisa ter um formato (mesmas assinaturas de métodos) : 
 
 ![](initialization.png)
   
