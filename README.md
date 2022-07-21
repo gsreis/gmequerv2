@@ -97,4 +97,12 @@ Todos os objetos passados como parâmetros tem um método getArray(), que retorn
   Você pode criar seus comandos e colocar em commands
   Eles tem o formato
   ![](error.png)
+  Um método help, onde você põe um print do que o comando faz. Quando você digita help com o programa em execução, ele busca por todos os scripts no diretório commands e executa esta explicação. aparece algo assim 
+  ![](explanation.png)
+  E um método execute que você pode colocar a lógica que desejar - neste exemplo está imprimindo todos os Exceptions na tela, e depois limpa a lista de erros
+  ---------------------------------------------------------------------------------------------------------------
+# Nivel 5 - Compilar os códigos 
+Eu não forneci um projeto java, mas bastta importar tudo que estiver no diretório src para um IDE (ex eclipse) e importar todos os JARs acima para o classpath (EXCETUANDO-SE O GMEQUER.JAR, que será gerado pela compilação)
+
+
   
