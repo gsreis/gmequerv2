@@ -5,7 +5,7 @@
     <name>gmequer</name>
     <groupId>1.0</groupId>
     <artifactId>gmequer</artifactId>
-    <version></version>
+    <version>1.0</version>
 
     <description>A program to estress MQ Series</description>
 
