@@ -100,6 +100,7 @@ public class ConnectionInfo {
 				
 				oneres.timestamp = System.currentTimeMillis();
 				Message m = consumer.receive();
+				oneres.messageSize = ((String)m.getBody(String.class)).length();
 				oneres.processTime = System.currentTimeMillis() - oneres.timestamp;
 			}
 			ResultsCollection.getSingleton().addResult(oneres);
