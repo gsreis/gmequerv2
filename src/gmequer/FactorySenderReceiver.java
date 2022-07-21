@@ -24,10 +24,10 @@ public class FactorySenderReceiver {
 	}
 	
 	public OneThreadMQ create(int i) {
-		if (i < getNumberReceiver()) {
-			return new OneReceiver();
-		} else {
+		if (i < getNumberSender()) {
 			return new OneSender();
+		} else {
+			return new OneReceiver();
 		}
 	}
 	
