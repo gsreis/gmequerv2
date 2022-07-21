@@ -114,7 +114,8 @@ Eu não forneci um projeto java, mas bastta importar tudo que estiver no diretó
 # Nivel 6 - Compilar com Maven
 Baixe o projeto, entre no diretório Maven, e digite mvn install
 Ele irá criar no diretório target um arquivo gmequer.jar
-Só colocar junto com os outros, sobrescevendo o arquivo do diretório raiz
+Só colocar junto com os outros, sobrescevendo o arquivo do diretório raiz 
+### (precisa renomear de gmequer-1.0.jar para gmequer.jar)
 
 
   
