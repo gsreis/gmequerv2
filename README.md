@@ -111,5 +111,10 @@ Todos os objetos passados como parâmetros tem um método getArray(), que retorn
 
 Eu não forneci um projeto java, mas bastta importar tudo que estiver no diretório src para um IDE (ex eclipse) e importar todos os JARs acima para o classpath (EXCETUANDO-SE O GMEQUER.JAR, que será gerado pela compilação)
 
+# Nivel 6 - Compilar com Maven
+Baixe o projeto, entre no diretório Maven, e digite mvn install
+Ele irá criar no diretório target um arquivo gmequer.jar
+Só colocar junto com os outros, sobrescevendo o arquivo do diretório raiz
+
 
   
