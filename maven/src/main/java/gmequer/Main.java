@@ -18,8 +18,12 @@ public class Main {
 		threads = new OneThreadMQ[factory.getNumberRunners()];
 		for (int i = 0; i < threads.length; i++) {
 			threads[i] = factory.create(i);
+			System.out.print(".");
 		}	
-		
+		for (int i = 0; i < threads.length; i++) {
+			threads[i].start();;
+			System.out.print(".");
+		}		
 		Scripts.getSingleton().initialization();	
 
     	System.out.println("Type help for all available commands ");

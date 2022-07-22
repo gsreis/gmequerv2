@@ -17,7 +17,6 @@ public class OneReceiver extends Thread implements OneThreadMQ{
 		
 		connection = new ConnectionInfo(false);
 		ConnectionsCollection.getSingleton().add(connection);
-		this.start();
 	}
 	
 	public void run() {

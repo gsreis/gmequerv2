@@ -18,7 +18,6 @@ public class OneSender extends Thread implements OneThreadMQ{
 		
 		connection = new ConnectionInfo(true);
 		ConnectionsCollection.getSingleton().add(connection);
-		this.start();
 	}
 	
 	public void run() {
